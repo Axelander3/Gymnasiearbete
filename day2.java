@@ -33,7 +33,8 @@ public class day2 {;
             int w = Integer.parseInt(split[1]);
             int h = Integer.parseInt(split[2]);
             totalFeet += getAmountFeet(l, w, h);
-            totalRibbonFeet +=(getSmallestPerimiter(l, w, h) + getCubic(l, w, h));
+            totalRibbonFeet +=(getSmallestPerimiter(l, w, h)
+                               + getCubic(l, w, h));
 
 
 
